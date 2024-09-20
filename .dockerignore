@@ -1,0 +1,10 @@
+bin
+.env
+.git
+*.test
+*.exe
+*.out
+*.so
+*.dll
+*.dylib
+vendor/

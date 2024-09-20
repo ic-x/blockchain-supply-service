@@ -1,0 +1,9 @@
+services:
+  ngl-supply-api:
+    build: .
+    ports:
+      - "8081:8081"
+    environment:
+      - CONFIG_FILE=config.json
+    volumes:
+      - ./config.json:/app/config.json
